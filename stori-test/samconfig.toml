@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "story-test"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1nm6bsba58tl7"
+s3_prefix = "story-test"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "SqsSendEmail=\"sqs-send-emails\" FileToProcess=\"csv_client_2.csv\" SqsSendEmailDLQ=\"sqs-send-emails-dlq\" S3BucketName=\"test-stori-19871118\" EmailIdentity=\"altorik@gmail.com\" EmailTemplate=\"stori-summary\" QueuesProcessed=\"dyndb-queues-processed\""
+image_repositories = []
