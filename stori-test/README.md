@@ -31,6 +31,10 @@ sam deploy --guided
 Seguir las instrucciones y cambiar el nombre del email que se usara para enviar y recibir:
 
 
+### ARCHIVO
+
+Subir el archivo al s3 que se crea al deployar en aws.
+
 ## IMPORTANTE
 
 Una vez que se deploye la pila de cloudformation se enviara un email para comprobar la direccion de email, es importante verificar este punto.
